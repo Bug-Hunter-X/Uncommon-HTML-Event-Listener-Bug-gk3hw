@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Uncommon HTML Bug Solution</title>
+</head>
+<body>
+  <div id="myDiv">
+    This is some text.
+  </div>
+  <script>
+    document.addEventListener('click',function(e){
+        if(e.target.id === "myDiv"){
+            alert("This will work");
+        }
+    })
+  </script>
+</body>
+</html>
